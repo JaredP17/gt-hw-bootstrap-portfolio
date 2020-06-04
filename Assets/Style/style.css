@@ -11,3 +11,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
 }
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    border-top: solid 7px #4baaa5;
+}
