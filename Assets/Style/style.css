@@ -24,16 +24,22 @@ h1 {
 }
 
 .card {
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 .about-me img {
     float: left;
     margin-right: 15px;
+    height: 200px;
+    width: 200px;
 }
 
 .about-me p {
     text-align: justify;
+}
+
+.about-me ul {
+    list-style: none;
 }
 
 footer {
