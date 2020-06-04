@@ -5,14 +5,39 @@ body {
 .navbar-light .navbar-brand {
     color: white;
 }
-.navbar-brand {
+.navbar-brand span {
     color: white;
     background-color: #4baaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
+    padding: 10px 0px 10px 0px;
+}
+
+button:focus {
+    outline: 5px auto #4baaa5;
+}
+
+h1 {
+    color:  #4baaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.card {
+    margin-top: 100px;
+}
+
+.about-me img {
+    float: left;
+    margin-right: 15px;
+}
+
+.about-me p {
+    text-align: justify;
 }
 
 footer {
+    color: white;
     background-color: #666666;
     text-align: center;
     border-top: solid 7px #4baaa5;
