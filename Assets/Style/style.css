@@ -1,0 +1,13 @@
+body {
+    background-image: url(../Images/background-img.png);
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-brand {
+    color: white;
+    background-color: #4baaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
