@@ -1,0 +1,54 @@
+body {
+    background-image: url(../Images/background-img.png);
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-brand span {
+    color: white;
+    background-color: #4baaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    padding: 10px 0px 10px 0px;
+}
+
+button:focus {
+    outline: 5px auto #4baaa5;
+}
+
+h1 {
+    color:  #4baaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.card {
+    margin-top: 75px;
+}
+
+.about-me img {
+    float: left;
+    margin-right: 15px;
+    height: 200px;
+    width: 200px;
+}
+
+.about-me p {
+    text-align: justify;
+}
+
+.about-me ul {
+    list-style: none;
+}
+
+.portfolio img {
+    margin: 10px;
+}
+
+footer {
+    color: white;
+    background-color: #666666;
+    text-align: center;
+    border-top: solid 7px #4baaa5;
+}
