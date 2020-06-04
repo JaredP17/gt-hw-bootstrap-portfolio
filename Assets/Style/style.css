@@ -42,6 +42,10 @@ h1 {
     list-style: none;
 }
 
+.portfolio img {
+    margin: 10px;
+}
+
 footer {
     color: white;
     background-color: #666666;
