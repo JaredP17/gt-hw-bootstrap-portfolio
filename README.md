@@ -8,13 +8,9 @@ Check out the deployable site [here](https://jaredp17.github.io/gt-hw-bootstrap-
 ## Images
 ### Sample Desktop
 ![About-desktop](./Assets/Screenshots/about-desktop.png)
-![About-desktop](./Assets/Screenshots/portfolio-desktop.png)
-![About-desktop](./Assets/Screenshots/contact-desktop.png)
 
 ### Sample Mobile
 ![About-desktop](./Assets/Screenshots/about-mobile.png)
-![About-desktop](./Assets/Screenshots/portfolio-mobile.png)
-![About-desktop](./Assets/Screenshots/contact-mobile.png)
 
 ## Installation
 1. Clone the repo
