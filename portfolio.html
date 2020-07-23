@@ -76,16 +76,17 @@
     </header>
 
     <!-- MAIN CONTENT -->
-    <main class="container">
-      <div class="row">
-        <div class="col-sm-10">
-          <div class="card">
-            <article class="card-body portfolio">
+    <main class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-xl-9">
+          <div class="card mt-5">
+            <article class="card-body">
               <h1 class="card-title">Portfolio</h1>
               <hr />
-              <div class="row">
-                <div class="card-columns">
-                  <div class="card">
+
+              <div class="row row-cols-1 row-cols-md-3 portfolio">
+                <div class="col col-12 col-md-6 col-xl-4 mb-4">
+                  <div class="card h-100">
                     <img
                       src="./Assets/Portfolio/remote-island.png"
                       class="card-img-top"
@@ -96,14 +97,13 @@
                         Remote Island
                       </h5>
                       <p class="card-text">
-                        We created a website where the user can decide what type
-                        of virtual vacation they are interested in and it will then take
+                        This is our first project for the GT Full Stack Flex
+                        Program. This project was created to provide a solution
+                        to everyone's want to escape (from reality)! We created
+                        a website where the user can decide what type of
+                        vacation they are interested in and it will then take
                         you to the next page where you will see a video taking
-                        you to a destination. Below that you have the options to
-                        view weather that is similar to that destination and a
-                        cocktail that you can get the ingredients included and
-                        recipe from or have the option to view a different
-                        drink.
+                        you to a destination.
                       </p>
                     </div>
                     <div class="card-body">
@@ -119,7 +119,44 @@
                       >
                     </div>
                   </div>
-                  <div class="card">
+                </div>
+
+                <div class="col col-12 col-md-6 col-xl-4 mb-4">
+                  <div class="card h-100">
+                    <img
+                      src="./Assets/Portfolio/memory-maker.png"
+                      class="card-img-top"
+                      alt="Remote Island"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Memory Maker
+                      </h5>
+                      <p class="card-text">
+                        Memory Maker is a full-stack web application created
+                        with the MVC paradigm. Memory Maker uses node.js with an
+                        express.js server, a mySQL database, a sequelize ORM,
+                        and handlebars.js as a view engine. The app features an
+                        interactive UI and responsive design.
+                      </p>
+                    </div>
+                    <div class="card-body">
+                      <a
+                        href="https://github.com/JaredP17/Memory-Maker"
+                        class="card-link"
+                        >Repo</a
+                      >
+                      <a
+                        href="https://memory-maker.herokuapp.com/"
+                        class="card-link"
+                        >Deployed Site</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col col-12 col-md-6 col-xl-4 mb-4">
+                  <div class="card h-100">
                     <img
                       src="./Assets/Portfolio/passwd-generator.png"
                       class="card-img-top"
@@ -151,7 +188,10 @@
                       >
                     </div>
                   </div>
-                  <div class="card">
+                </div>
+
+                <div class="col col-12 col-md-6 col-xl-4 mb-4">
+                  <div class="card h-100">
                     <img
                       src="./Assets/Portfolio/weather-dashboard.png"
                       class="card-img-top"
@@ -179,6 +219,38 @@
                       >
                       <a
                         href="https://jaredp17.github.io/gt-hw6-weather-dashboard/"
+                        class="card-link"
+                        >Deployed Site</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col col-12 col-md-6 col-xl-4 mb-4">
+                  <div class="card h-100">
+                    <img
+                      src="./Assets/Portfolio/note-taker.png"
+                      class="card-img-top"
+                      alt="Weather Dashboard"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Note Taker
+                      </h5>
+                      <p class="card-text">
+                        An application that can be used to write, save, and
+                        delete notes. This application uses an express backend
+                        and saves/retrieves note data to/from a JSON file.
+                      </p>
+                    </div>
+                    <div class="card-body">
+                      <a
+                        href="https://github.com/JaredP17/gt-hw-note-taker"
+                        class="card-link"
+                        >Repo</a
+                      >
+                      <a
+                        href="https://gt-hw-note-taker-jrp.herokuapp.com/"
                         class="card-link"
                         >Deployed Site</a
                       >

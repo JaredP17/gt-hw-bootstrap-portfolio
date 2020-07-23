@@ -23,9 +23,9 @@ h1 {
     font-weight: 800;
 }
 
-.card {
+/* .card {
     margin-top: 75px;
-}
+} */
 
 .card img {
     height: 20vh;
@@ -44,6 +44,11 @@ h1 {
 
 .about-me ul {
     list-style: none;
+}
+
+.portfolio {
+    height: 60vh;
+    overflow-y: auto;
 }
 
 
